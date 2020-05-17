@@ -1,0 +1,334 @@
+/*!
+Template :	ICOCrypto @by Softnio
+Theme	 :  Default
+Version	 :	1.9.0
+Updated	 :	11.14.2019
+*/
+
+
+/*! WRITE YOUR CUSTOM STYLE **/
+
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+
+html,
+body {
+    font-family: 'Noto Sans TC', "Microsoft JhengHei", 'Roboto', sans-serif;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: 'Noto Sans TC', "Microsoft JhengHei", 'Roboto', sans-serif;
+    line-height: 1.4em;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.08rem;
+    color: #080B40;
+}
+
+.en {
+    font-size: 15px;
+    line-height: 1.8rem;
+    letter-spacing: 0rem
+}
+
+@media (max-width: 767px) {
+    p {
+        font-size: 14px;
+    }
+    .en {
+        font-size: 14px;
+        line-height: 1.6rem;
+    }
+}
+
+.md-round {
+    border-radius: 3px;
+}
+
+.container {
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.bg-zinnia {
+    background-image: url(../images/header.jpg);
+    background-position: 50% 80%;
+    background-color: #030619 !important;
+}
+
+@media (max-width: 767px) {
+    .banner-inner {
+        min-height: 400px;
+    }
+    .bg-zinnia {
+        background-size: 300%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .bg-zinnia {
+        background-size: 200%;
+    }
+}
+
+.section-t-m-fixed,
+.section-m-fixed {
+    padding-top: 60px !important;
+}
+
+.section-b-m-fixed,
+.section-m-fixed {
+    padding-bottom: 60px !important;
+}
+
+
+/*--------------------------------------------------------------
+# colour
+--------------------------------------------------------------*/
+
+.tc-main {
+    color: #00042E;
+}
+
+.bg-theme-dark-self {
+    background-color: #00042E;
+}
+
+.bg-light-self {
+    background-color: #E9EEF9;
+}
+
+
+/*--------------------------------------------------------------
+# Date + Time
+--------------------------------------------------------------*/
+
+.token-countdown-wrapper {
+    padding: 26px 20px 30px 30px;
+    background-color: #FF004B;
+}
+
+.token-countdown-wrapper .iconfont {
+    font-size: 30px;
+    line-height: 35px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 13px 0 0;
+}
+
+.vertical-border {
+    font-size: 23px;
+    line-height: 30px;
+    padding: 3px 0 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.token-countdown-wrapper strong {
+    font: 16px/18px "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    display: block;
+    margin: 0 0 10px;
+}
+
+.token-countdown-wrapper .align-right {
+    padding: 0 0 0 16px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.token-countdown-wrapper .date {
+    font: 18px/20px "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    display: block;
+    margin: 0;
+}
+
+@media (max-width: 767px) {
+    .token-countdown-wrapper {
+        text-align: left;
+        margin: 0 0 20px;
+    }
+    .title-xl {
+        font-size: 2.25rem
+    }
+    .title-md {
+        font-size: 1.25rem;
+    }
+}
+
+
+/*--------------------------------------------------------------
+# Team
+--------------------------------------------------------------*/
+
+.nk-block-speaker .row {
+    position: relative;
+}
+
+.nk-block-speaker .row .col-md-6 .spaker-photo {
+    position: absolute;
+}
+
+.team-self {
+    padding: 20px 1vmin;
+}
+
+.team-self .team-desc {
+    font-size: 13px;
+    letter-spacing: .1rem
+}
+
+.team-self .team-desc-en {
+    font-size: 12px;
+    letter-spacing: 0rem;
+    color: #080B40;
+}
+
+.team-photo-bg:before {
+    opacity: 0;
+}
+
+.team-name {
+    padding-top: 10px;
+    font-weight: 500;
+    color: #080B40;
+}
+
+.tc-info {
+    color: #b9d2f4 !important;
+    opacity: .6;
+}
+
+#speaker .team-position {
+    display: block;
+    font-size: 14px;
+}
+
+.nk-block {
+    padding-bottom: 20px;
+}
+
+.nk-block-speakr {
+    display: block;
+    width: 100%;
+    position: relative;
+}
+
+.spaker-photo {
+    position: absolute;
+    top: -50px;
+    max-width: 130px;
+}
+
+.spaker-photo-en {
+    position: absolute;
+}
+
+.team-photo-s1 {
+    max-width: 80%;
+}
+
+@media (max-width: 767px) {
+    .organiser-list {
+        margin-bottom: 20px;
+    }
+}
+
+
+/*--------------------------------------------------------------
+# Partner
+--------------------------------------------------------------*/
+
+.partner-logo-s2 img {
+    max-height: 40px;
+}
+
+.organiser-list {
+    position: relative;
+    z-index: 2;
+}
+
+.align-left {
+    padding: 0 0 0 16px;
+    display: inline-block;
+}
+
+.box-shadow {
+    box-shadow: 0 0 20px 0 rgba(18, 24, 58, 0.08);
+    z-index: 49;
+}
+
+@media (max-width: 767px) {
+    .nk-block-speaker {
+        display: none;
+    }
+    .section-sm {
+        padding-top: 20px !important;
+        padding-bottom: 10px !important;
+    }
+    .organiser-list {
+        margin-bottom: 10px;
+    }
+    .partner-logo-s2 img {
+        max-height: 40px;
+    }
+}
+
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+.contact-text a,
+.contact-text a:hover {
+    color: white;
+}
+
+
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+
+.back-to-top {
+    position: fixed;
+    display: none;
+    width: 40px;
+    height: 40px;
+    right: 15px;
+    bottom: 15px;
+    border-radius: 4px;
+    padding: 20px;
+    background: #FF004B;
+    color: #fff ! important;
+    transition: display 0.5s ease-in-out;
+    z-index: 99999;
+}
+
+.back-to-top i {
+    font-size: 24px;
+    position: absolute;
+    top: 8px;
+    left: 9px;
+}
+
+.back-to-top:hover {
+    color: #fff;
+    background: #F2A0B6;
+    transition: background 0.2s ease-in-out;
+}

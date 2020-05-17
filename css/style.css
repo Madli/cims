@@ -1,0 +1,62 @@
+
+h3,p,li,article,header {
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+
+.wrap{
+    height: 100vh;
+    justify-content: space-around;
+    margin: auto;
+    
+}
+
+header {
+    background-color: #3A5BFF;
+    height: 400px;
+    position: relative;
+}
+
+
+section {
+    border: 2px solid #DFEBED;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+
+.mainkv {
+    width:300px;
+    height:200px;
+    background-image: url("https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(97).jpg");
+    background-size: contain;
+    background-color: aqua;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+
+
+@media screen and (min-width: 1024px){
+   
+   
+    section {
+        width: 1400px;
+        display: flex;
+}
+
+   
+    article{
+        width: 50%;
+        margin: 10px;
+        background-color: aquamarine;
+    }
+
+    header {
+        height:300px;}
+    }
+
+
+}
